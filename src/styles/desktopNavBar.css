@@ -1,0 +1,50 @@
+html,
+body {
+    margin: 0;
+    padding: 0;  
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.desktopNav {
+    width: 100%;
+    height: 5vh;
+    background-color: #2B2B28;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    box-shadow: 0 1px 10px 0 black;
+    flex: 0 0 auto;
+}
+
+.leftSideItems,
+.rightSideItems {
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftSideItems {
+    margin-left: 35px;
+}
+
+.rightSideItems {
+    margin-right: 35px;
+}
+
+.headerLink {
+    text-decoration: none;
+    color: white;
+}
+
+.leftSideItems,
+.rightSideItems:hover {
+    cursor: pointer;
+}
