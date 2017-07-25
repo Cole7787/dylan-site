@@ -14,7 +14,7 @@ const DesktopNavBar = (props) => {
                 <Link className="headerLink" to='/home'>
                     <span className="companyName">Home</span>
                 </Link>
-                <Link className="headerLink" to='/about'>
+                <Link className="headerLink" href="#about">
                     <span className='shopText'>About</span>
                 </Link>
                 <Link className="headerLink" to='/shop'>
