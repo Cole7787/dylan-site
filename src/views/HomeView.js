@@ -46,16 +46,32 @@ class HomeView extends React.Component {
                             <div className="videosPage" id="videos">
                                 <div className="videosWrapper">
                                     <h2 className="videosTitle">Videos</h2>
-                                    <div className="leftHandVideos">
-                                        <YoutubeEmbedVideo videoId="dJNgErXfHyg" suggestions={false} size="medium" />
-                                        <div className="bottomLeftVideo">
-                                            <YoutubeEmbedVideo videoId="xtCKZWleUNs" suggestions={false} size="medium" />
+                                    <div className="mediumVideos">
+                                        <div className="leftHandVideos">
+                                            <YoutubeEmbedVideo videoId="dJNgErXfHyg" suggestions={false} size="small" />
+                                            <div className="bottomLeftVideo">
+                                                <YoutubeEmbedVideo videoId="xtCKZWleUNs" suggestions={false} size="small" />
+                                            </div>
+                                        </div>
+                                        <div className="rightHandVideos">
+                                            <YoutubeEmbedVideo videoId="QDAAACqiYr8" suggestions={false} size="small" />
+                                            <div className="bottomRightVideo">
+                                                <YoutubeEmbedVideo videoId="Sa7TLkNs60g" suggestions={false} size="small" />
+                                            </div>
                                         </div>
                                     </div>
-                                    <div className="rightHandVideos">
-                                        <YoutubeEmbedVideo videoId="QDAAACqiYr8" suggestions={false} size="medium" />
-                                        <div className="bottomRightVideo">
-                                            <YoutubeEmbedVideo videoId="Sa7TLkNs60g" suggestions={false} size="medium" />
+                                    <div className="smallVideos">
+                                        <div className="leftHandVideos">
+                                            <YoutubeEmbedVideo videoId="dJNgErXfHyg" suggestions={false} size="small" />
+                                            <div className="bottomLeftVideo">
+                                                <YoutubeEmbedVideo videoId="xtCKZWleUNs" suggestions={false} size="small" />
+                                            </div>
+                                        </div>
+                                        <div className="rightHandVideos">
+                                            <YoutubeEmbedVideo videoId="QDAAACqiYr8" suggestions={false} size="small" />
+                                            <div className="bottomRightVideo">
+                                                <YoutubeEmbedVideo videoId="Sa7TLkNs60g" suggestions={false} size="small" />
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
