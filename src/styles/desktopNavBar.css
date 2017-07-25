@@ -48,3 +48,21 @@ a {
 .rightSideItems:hover {
     cursor: pointer;
 }
+
+@media screen and (max-width: 1600px) {
+
+    .rightSideItems {
+        width: 29%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .headerLink {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

@@ -57,3 +57,25 @@ body {
     height: auto;
     width: 100%
 }
+
+@media screen and (max-width: 2000px) {
+
+    .aboutTextWrapper {
+        width: 50%;
+        margin-top: 11vh;
+        margin-right: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: top;
+        align-items: center;
+    }
+
+    .aboutText {
+        font-size: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        letter-spacing: 1px;
+    }
+}

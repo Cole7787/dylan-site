@@ -11,17 +11,17 @@ const DesktopNavBar = (props) => {
                 </Link>*/}
             </div>
             <div className="rightSideItems">
-                <Link className="headerLink" to='/home'>
+                <Link className="headerLink" to="/">
                     <span className="companyName">Home</span>
                 </Link>
-                <Link className="headerLink" href="#about">
+                <Link className="headerLink" href='#about'>
                     <span className='shopText'>About</span>
                 </Link>
-                <Link className="headerLink" to='/shop'>
-                    <span className='shopText'>Shop</span>
+                <Link className="headerLink" href='#videos'>
+                    <span className='shopText'>Videos</span>
                 </Link> 
-                <Link className="headerLink" to='/cart'>
-                    <span className='shopText'>Cart</span>
+                <Link className="headerLink" href='#shop'>
+                    <span className='shopText'>Shop</span>
                 </Link>  
             </div>
         </div>
