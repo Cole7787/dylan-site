@@ -1,8 +1,11 @@
 import React from 'react';
 import DesktopNav from '../components/DesktopNavBar';
 import '../styles/home.css';
+import '../styles/about.css';
+import '../styles/videos.css';
 import dylan from '../dylan.png';
 import aboutDylan from '../aboutDylan.jpg';
+import YoutubeEmbedVideo from 'youtube-embed-video';
 
 class HomeView extends React.Component {
     render() {
@@ -38,6 +41,23 @@ class HomeView extends React.Component {
                                         by Cicero are also reproduced in their exact original form, accompanied by English 
                                         versions from the 1914 translation by H. Rackham.
                                     </p>
+                                </div>
+                            </div>
+                            <div className="videosPage" id="videos">
+                                <div className="videosWrapper">
+                                    <h2 className="videosTitle">Videos</h2>
+                                    <div className="leftHandVideos">
+                                        <YoutubeEmbedVideo videoId="dJNgErXfHyg" suggestions={false} size="medium" />
+                                        <div className="bottomLeftVideo">
+                                            <YoutubeEmbedVideo videoId="xtCKZWleUNs" suggestions={false} size="medium" />
+                                        </div>
+                                    </div>
+                                    <div className="rightHandVideos">
+                                        <YoutubeEmbedVideo videoId="QDAAACqiYr8" suggestions={false} size="medium" />
+                                        <div className="bottomRightVideo">
+                                            <YoutubeEmbedVideo videoId="Sa7TLkNs60g" suggestions={false} size="medium" />
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
